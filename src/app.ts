@@ -7,7 +7,7 @@ import { env } from './env'
 export const app = fastify()
 
 //O método setErrorHandler é usado para definir a função
-// que será chamada sempre que ocorrer um erro dentro do aplicativo.
+//que será chamada sempre que ocorrer um erro dentro do aplicativo.
 //Essa função recebe três parâmetros: o erro(error), 
 //a solicitação(_) e a resposta(replay).
 
